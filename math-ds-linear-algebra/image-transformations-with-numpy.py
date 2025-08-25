@@ -2,21 +2,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import codecademylib3
 
-heart_img = np.array([[255,0,0,255,0,0,255],
-              [0,255/2,255/2,0,255/2,255/2,0],
-          [0,255/2,255/2,255/2,255/2,255/2,0],
-          [0,255/2,255/2,255/2,255/2,255/2,0],
-              [255,0,255/2,255/2,255/2,0,255],
-                  [255,255,0,255/2,0,255,255],
-                  [255,255,255,0,255,255,255]])
+heart_img = np.array([[255, 0, 0, 255, 0, 0, 255],
+                      [0, 255 / 2, 255 / 2, 0, 255 / 2, 255 / 2, 0],
+                      [0, 255 / 2, 255 / 2, 255 / 2, 255 / 2, 255 / 2, 0],
+                      [0, 255 / 2, 255 / 2, 255 / 2, 255 / 2, 255 / 2, 0],
+                      [255, 0, 255 / 2, 255 / 2, 255 / 2, 0, 255],
+                      [255, 255, 0, 255 / 2, 0, 255, 255],
+                      [255, 255, 255, 0, 255, 255, 255]])
+
 
 # Helper: Show images
 def show_image(image, name_identifier):
-  plt.imshow(image, cmap="gray", vmin=0, vmax=255)
-  plt.title(name_identifier)
-  plt.axis("off")
-  plt.show()
-  plt.clf()
+    plt.imshow(image, cmap="gray", vmin=0, vmax=255)
+    plt.title(name_identifier)
+    plt.axis("off")
+    plt.show()
+    plt.clf()
+
 
 # Task: Show heart image
 show_image(heart_img, "Original Heart")
