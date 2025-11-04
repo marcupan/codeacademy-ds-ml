@@ -1,0 +1,16 @@
+-------------------------------------------------
+A/B Testing at Nosh Mish Mosh
+-------------------------------------------------
+Total visitors: 500
+Paying visitors: 93
+Baseline conversion rate: 18.6%
+-------------------------------------------------
+Average payment per customer: $26.54
+New customers needed to reach $1240 extra revenue: 47
+Percentage point increase needed: 9.4%
+-------------------------------------------------
+Minimum Detectable Effect (MDE): 50.54%
+-------------------------------------------------
+Required sample size per group: 247
+Total sample size for A/B test: 494
+-------------------------------------------------
